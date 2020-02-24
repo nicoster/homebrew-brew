@@ -1,9 +1,9 @@
 class FlamegraphMac < Formula
     desc "Take stackshots with undocumented syscall to make flamegraph on MacOS."
     homepage "https://github.com/nicoster/flamegraph-mac"
-    url "https://github.com/nicoster/flamegraph-mac/raw/master/archive/flamegraph-mac-master-74b3778-20200224-222622.tar.gz"
-    sha256 "9c74d0672de081b3d5011c66dc3801817ae4602b9b930a48fad4c7f726281544"
-    version "1.3.0"
+    url "https://github.com/nicoster/flamegraph-mac/raw/master/archive/flamegraph-mac-master-cb20dd8-20200224-224311.tar.gz"
+    sha256 "017dafd62e9dbcaeb9255050a1d7b138743b77428f7cf95d61382776889e0448"
+    version "1.3.1"
   
     depends_on "luajit"
   
@@ -26,5 +26,6 @@ class FlamegraphMac < Formula
       lib.install "lib/kcdata.py"
       lib.install "lib/stackcollapse-stackshot.lua"
       lib.install "lib/stackshots.lua"
+      lib.install "lib/argparse.lua"
     end
   end

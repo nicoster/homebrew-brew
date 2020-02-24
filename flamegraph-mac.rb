@@ -10,7 +10,11 @@ class FlamegraphMac < Formula
     bottle :unneeded
  
     def caveats; <<~EOS
-        The tool is installed by the name of `mkflamegraph`
+        This tool is installed by the name of `mkflamegraph` to:
+            /usr/local/bin/mkflamegraph
+
+        It requires root privileges to take stackshots of another process. 
+        mkflamegraph invokes `sudo` internally when taking stackshots.  
 
     EOS
     end

@@ -1,9 +1,9 @@
 class FlamegraphMac < Formula
     desc "Take stackshots with undocumented syscall to make flamegraph on MacOS."
     homepage "https://github.com/nicoster/flamegraph-mac"
-    url "https://github.com/nicoster/flamegraph-mac/raw/master/archive/flamegraph-mac-master-c3f75a1-20200225-220439.tar.gz"
-    sha256 "f10bc360ce3c6ddf6fb9a1394c99542a168cec5c5da52c5694864267329f828e"
-    version "1.3.2"
+    url "https://github.com/nicoster/flamegraph-mac/raw/master/archive/flamegraph-mac-master-fdd0754-20200225-220345.tar.gz"
+    sha256 "4ba706b97b049316ef214af96ace9864d8b5e4ef939ca2716ad968089c0974b3"
+    version "1.3.3"
   
     depends_on "luajit"
   

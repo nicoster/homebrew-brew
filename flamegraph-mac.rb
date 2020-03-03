@@ -27,5 +27,6 @@ class FlamegraphMac < Formula
       lib.install "lib/stackcollapse-stackshot.lua"
       lib.install "lib/stackshots.lua"
       lib.install "lib/argparse.lua"
+      lib.install "lib/cjson.so"
     end
   end

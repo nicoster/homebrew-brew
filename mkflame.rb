@@ -1,4 +1,4 @@
-class FlamegraphMac < Formula
+class Mkflame < Formula
     desc "Take stackshots with undocumented syscall to make flamegraph on MacOS."
     homepage "https://github.com/nicoster/flamegraph-mac"
     url "https://github.com/nicoster/flamegraph-mac/raw/master/archive/flamegraph-mac-master-592dfc4-20200312-105850.tar.gz"
